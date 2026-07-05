@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIVWF Scan Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        h1 { color: #333; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .vuln-critical { color: red; font-weight: bold; }
+        .vuln-high { color: darkorange; font-weight: bold; }
+        pre { background: #f5f5f5; padding: 1em; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>AIVWF Vulnerability Report</h1>
+    <p><strong>Target URL:</strong> {{ url }}</p>
+    <p><strong>Scan Date:</strong> {{ timestamp }}</p>
+    <h2>Vulnerabilities Found ({{ vulnerabilities|length }})</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Payload</th>
+            <th>Evidence</th>
+        </tr>
+        {% for v in vulnerabilities %}
+        <tr>
+            <td class="{% if v.severity == 'critical' %}vuln-critical{% elif v.severity == 'high' %}vuln-high{% endif %}">{{ v.type }}</td>
+            <td>{{ v.payload }}</td>
+            <td>{{ v.evidence }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% if ai_response %}
+    <h2>AI Analysis &amp; Remediation</h2>
+    <pre>{{ ai_response }}</pre>
+    {% endif %}
+</body>
+</html>
