@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Configuration and sensitive files
+config.yaml
+scans.db
+*.log
+
+# Custom user prompts
+prompts/custom.prompt
+
+# OS generated files
+.DS_Store
+Thumbs.db
