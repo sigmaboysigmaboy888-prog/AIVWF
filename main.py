@@ -1,6 +1,3 @@
-
-### main.py
-```python
 #!/usr/bin/env python3
 """
 AIVWF – AI Automated Vulnerability Web Founder
