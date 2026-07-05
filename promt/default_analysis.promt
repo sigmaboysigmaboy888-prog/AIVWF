@@ -1,0 +1,1 @@
+You are a senior penetration tester. Analyze the following vulnerabilities found on {url} during a scan on {scan_date}. For each vulnerability, explain the risk, how it can be exploited, and provide step-by-step remediation. Vulnerabilities: {vulnerabilities}
